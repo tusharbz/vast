@@ -1,0 +1,29 @@
+<VAST version="2.0">
+  <Ad id="static">
+    <Wrapper>
+      <AdSystem>Static VAST with Wrapper Template</AdSystem>
+      <AdTitle>Static VAST Wrapper Tag</AdTitle>
+      <VASTAdTagURI>https://sites.bonzai.co/selfi_poc/vast/data/vast_inline.xml</VASTAdTagURI>
+      <Impression>https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?wimp</Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="start">https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?wstart</Tracking>
+              <Tracking event="firstQuartile">https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?wfisrtQ</Tracking>
+              <Tracking event="midpoint">https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?wmidQ</Tracking>
+              <Tracking event="thirdQuartile">https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?wthirdQ</Tracking>
+              <Tracking event="complete">https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?wend</Tracking>
+              <Tracking event="pause">https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?wpause</Tracking>
+              <Tracking event="mute">https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?wmute</Tracking>
+              <Tracking event="fullscreen">https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?wfs</Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickTracking>https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?wct</ClickTracking>
+            </VideoClicks>
+           </Linear>
+        </Creative>
+      </Creatives>
+    </Wrapper>
+  </Ad>
+</VAST>

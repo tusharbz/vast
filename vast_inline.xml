@@ -1,0 +1,48 @@
+<VAST version="2.0">
+  <Ad id="static">
+    <InLine>
+      <AdSystem>Static VAST Template</AdSystem>
+      <AdTitle>Static VAST Tag</AdTitle>
+      <Impression>https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?imp</Impression>
+      <Creatives>
+        <Creative>
+          <Linear skipoffset="00:00:05">
+            <Duration>00:00:30</Duration>
+            <TrackingEvents>
+              <Tracking event="start">https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?start</Tracking>
+              <Tracking event="firstQuartile">https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?fisrtQ</Tracking>
+              <Tracking event="midpoint">https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?midQ</Tracking>
+              <Tracking event="thirdQuartile">https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?thirdQ</Tracking>
+              <Tracking event="complete">https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?end</Tracking>
+              <Tracking event="pause">https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?pause</Tracking>
+              <Tracking event="mute">https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?mute</Tracking>
+              <Tracking event="fullscreen">https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?fs</Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough>https://www.linkedin.com/company-beta/3615740</ClickThrough>
+              <ClickTracking>https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?ct</ClickTracking>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile type="video/mp4" bitrate="300" width="360" height="240" delivery="progressive">
+                https://sites.bonzai.co/selfi_poc/vast/video.mp4
+              </MediaFile>
+            </MediaFiles>
+           </Linear>
+        </Creative>
+        <Creative AdID="601364-Companion">
+			<CompanionAds>
+				<Companion width="300" height="250">
+					<StaticResource creativeType="image/jpeg">https://sites.bonzai.co/selfi_poc/vast/img/comp_300x250.png</StaticResource>
+					<TrackingEvents>
+						<Tracking event="creativeView">https://sites.bonzai.co/selfi_poc/vast/img/favicon.png?comp300x250</Tracking>
+					</TrackingEvents>
+ 
+					<CompanionClickThrough>http://www.bonzai.ad?comp</CompanionClickThrough>
+				</Companion>
+			</CompanionAds>
+		</Creative>
+
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
